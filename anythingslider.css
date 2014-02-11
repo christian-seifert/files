@@ -28,15 +28,13 @@
 .anythingSlider-default {
 	margin: 0 auto;
 	/* 45px right & left padding for the arrows, 28px @ bottom for navigation */
-	/* padding: 0 45px 28px 45px; */
+	padding: 0 45px 28px 45px;
 }
 /* slider window - top & bottom borders, default state */
-/*
 .anythingSlider-default .anythingWindow {
 	border-top: 3px solid #777;
 	border-bottom: 3px solid #777;
 }
-*/
 /* Navigation buttons + start/stop button, default state */
 .anythingSlider-default .anythingControls a {
 	/* top shadow */
@@ -212,8 +210,6 @@
 	display: block;
 	overflow: visible !important;
 	position: relative;
-	height: 100% !important;
-	width: 100% !important;
 }
 /* anythingSlider viewport window */
 .anythingSlider .anythingWindow {
